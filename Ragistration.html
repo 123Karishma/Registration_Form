@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="contant">
+            <h2>Registration<br><span>Form</span>
+        </div>
+        <div class="vl"></div>
+    <div class="parents">
+        <h1><u>Registration
+        </u></h1>
+        <p>Personal Details</p>
+        <form name="myForm" action="/action_page.php">
+        <div class="Child">
+            <div class="input-filed">
+         <label for="Name">First Name</label>
+        <input name="Name" id="Name" type="text" placeholder="Enter the First Name" maxlength="10" minlength="3" required>
+    </div>
+
+    <div class="input-filed">
+        <label for="Fname">Last Name Name</label>
+        <input name="Full Name" id="Fname" type="text" placeholder="Enter the Last Name" maxlength="15" minlength="4" required>
+    </div>
+
+     <div class="input-filed">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter The E-mail" required>
+    </div>
+
+   <div class="input-filed">
+    <label for="number">Number</label>
+    <input type="tel" id="number" placeholder="Enter the Phone Number" maxlength="11" minlength="9" required>
+    </div>
+
+    <div class="input-filed">
+        <label for="Address">Address</label>
+        <input type="text" id="address" placeholder="Enter the Address" maxlength="100" minlength="10" required>
+        </div>
+
+     <div class="input-filed">
+        <label for="birth">Date Of Birth</label>
+        <input type="datetime-local" id="birth" required>
+    </div>
+
+               <div class="input-filed">
+                    <label for="gender">Gender</label>
+                    <input list="genders" name="gender" id="gender" placeholder="Enter The Gender" required>
+                    <datalist id="genders">
+                      <option value="Femail">
+                      <option value="Mail">
+                      <option value="Other">
+                    </datalist>
+                    </div>
+                    <div class="input-filed">
+                        <label for="occupation">Occupation</label>
+                        <input type="text" id="occupation" placeholder="Enter the Occupation" maxlength="50" minlength="10" required>
+                        </div>
+                        <div class="input-filed">
+                            <label for="country">Country</label>
+                    <input list="countrys" name="country" id="country" placeholder="Other" required>
+                    <datalist id="countrys">
+                              <option value="Other">
+                              <option value="India">
+                              <option value="America">
+                              <option value="China">
+                              <option value="Nepal">
+                              <option value="Pakistan">
+                              <option value="Bangladesh">
+                            </datalist>
+                        </div>
+                   
+    <div class="button">
+        <button type="submit"> Submit</button>
+    </div>
+      </div>
+    </form>
+</div>
+
+    </div>
+</body>
+</html>
